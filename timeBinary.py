@@ -16,9 +16,16 @@ while True:
 		hour = int(myTimeDone[0])
 		min = int(myTimeDone[1])
 		sec = int(myTimeDone[2])
+		date = myTime[0] + " " + myTime[1] + " " + myTime[2]
 		while min < 60:
 			while sec < 60:
 				os.system('cls')
+				print "Date: "
+				print "-----"
+				print date
+				print " "
+				print "Time:"
+				print "-----"
 				print "Hours" + '\t' + "Minutes" + '\t' + "Seconds"
 				hourBin = bin(hour)
 				minBin = bin(min)
@@ -31,3 +38,4 @@ while True:
 		min = 0
 		hour = hour + 1
 	hour = 0
+	
