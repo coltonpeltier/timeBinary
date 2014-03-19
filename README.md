@@ -8,3 +8,5 @@ This script depends on the following python libaries: ntplib, os, and time.
 To run the script just invoke python2.7 on timeBinary.py, such as:
 
 $python2.7 timeBinary.py
+
+Screenshot: http://imgur.com/ocgQV84
