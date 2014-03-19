@@ -10,4 +10,4 @@ time
 
 To run the script just invoke python2.7 on timeBinary.py, such as:
 
-#python2.7 timeBinary.py
+$python2.7 timeBinary.py
